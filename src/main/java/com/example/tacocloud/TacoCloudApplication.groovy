@@ -6,8 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 @SpringBootApplication
 class TacoCloudApplication {
 
-	static void main(String[] args) {
-		SpringApplication.run(TacoCloudApplication, args)
-	}
-
+    static void main(String[] args) {
+        SpringApplication.run(TacoCloudApplication, args)
+    }
 }
