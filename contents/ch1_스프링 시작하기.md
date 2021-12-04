@@ -23,7 +23,7 @@
 - 라이브러리들의 버전을 걱정하지 않아도 된다. (스프링 부트에 포함되는 라이브러리의 버전은 호환이 보장되기 때문에 스프링 부트의 버전만 신경쓰면 된다.)
 
 ## @SpringBootApplication
- ```
+ ```groovy
 @SpringBootApplication
 class TacoCloudApplication {
 
@@ -40,7 +40,7 @@ class TacoCloudApplication {
 - main() : JAR 파일이 실행될 때 호출되어 실행되는 메서드
 
 ## @Contorller
-```
+```java
 @Controller
 public class HomeController {
 
@@ -57,7 +57,7 @@ public class HomeController {
 - home(): 루트 경로인 /의 HTTP GET 요청이 수신되면 이 메서드가 해당 요청을 처리한다.
 
 ## @WebMvcTest
-```
+```java
 package com.example.tacocloud.tacos;
 
 import org.hamcrest.Matchers;
