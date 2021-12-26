@@ -1,4 +1,4 @@
-package com.example.tacocloud.tacos;
+package com.example.taco_cloud.tacos;
 
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.Test;
@@ -16,7 +16,10 @@ class HomeControllerTest {
 
     @Test
     public void testHomePage() throws Exception {
-        mockMvc.perform(MockMvcRequestBuilders.get("/")).andExpect(MockMvcResultMatchers.status().isOk()).andExpect(MockMvcResultMatchers.view().name("home")).andExpect(MockMvcResultMatchers.content().string(Matchers.containsString("Welcome to...")));
+        mockMvc.perform(MockMvcRequestBuilders.get("/"))
+                .andExpect(MockMvcResultMatchers.status().isOk())
+                .andExpect(MockMvcResultMatchers.view().name("home"))
+                .andExpect(MockMvcResultMatchers.content().string(Matchers.containsString("Welcome to...")));
 
     }
 }
