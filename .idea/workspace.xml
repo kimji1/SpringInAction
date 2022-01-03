@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1072ab4c-4092-4e42-afcd-39c52d52ef03" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/taco_cloud/tacos/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/taco_cloud/tacos/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/taco_cloud/tacos/Taco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/taco_cloud/tacos/Taco.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +172,7 @@
       <workItem from="1639279003372" duration="213000" />
       <workItem from="1639298908245" duration="3156000" />
       <workItem from="1640494094128" duration="6310000" />
-      <workItem from="1641210948831" duration="1720000" />
+      <workItem from="1641210948831" duration="2125000" />
     </task>
     <task id="LOCAL-00001" summary="- ch1 thymeleaf 에러 수정">
       <created>1640494220270</created>
@@ -203,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641216407048</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="- add jdbc dependency">
+      <created>1641216656487</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1641216656487</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,7 +223,8 @@
     <MESSAGE value="- ch2 2.1 - 2.3 폼 유효성 검사" />
     <MESSAGE value="- update gitignore" />
     <MESSAGE value="- add WebConfig and remove home controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="- add WebConfig and remove home controller" />
+    <MESSAGE value="- add jdbc dependency" />
+    <option name="LAST_COMMIT_MESSAGE" value="- add jdbc dependency" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
