@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1072ab4c-4092-4e42-afcd-39c52d52ef03" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/taco_cloud/tacos/web/WebConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.3.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.3.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.3.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.3.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.3.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/taco_cloud/tacos/HomeControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/taco_cloud/tacos/HomeControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/taco_cloud/tacos/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/taco_cloud/tacos/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/taco_cloud/tacos/Taco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/taco_cloud/tacos/Taco.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +173,7 @@
       <workItem from="1639279003372" duration="213000" />
       <workItem from="1639298908245" duration="3156000" />
       <workItem from="1640494094128" duration="6310000" />
-      <workItem from="1641210948831" duration="1487000" />
+      <workItem from="1641210948831" duration="1720000" />
     </task>
     <task id="LOCAL-00001" summary="- ch1 thymeleaf 에러 수정">
       <created>1640494220270</created>
@@ -204,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641211850251</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="- add WebConfig and remove home controller">
+      <created>1641216407048</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1641216407048</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,7 +216,8 @@
     <MESSAGE value="- ch1 thymeleaf 에러 수정" />
     <MESSAGE value="- ch2 2.1 - 2.3 폼 유효성 검사" />
     <MESSAGE value="- update gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="- update gitignore" />
+    <MESSAGE value="- add WebConfig and remove home controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="- add WebConfig and remove home controller" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
