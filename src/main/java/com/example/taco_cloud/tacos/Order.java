@@ -3,7 +3,9 @@ package com.example.taco_cloud.tacos;
 import lombok.Data;
 
 import javax.validation.constraints.NotBlank;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 @Data
 public class Order {
@@ -27,4 +29,10 @@ public class Order {
     private String ccExpiration;
     @NotBlank(message = "Name is required")
     private String ccCVV;
+
+    private List<Taco> tacos = new ArrayList<>();
+
+    public void addDesign(Taco design) {
+        this.tacos.add(design);
+    }
 }
